@@ -53,6 +53,13 @@ const ExperienceCard = ({ experience }) => {
             {point}
           </li>
         ))}
+        <div className="mt-5 text-secondary">
+          Live link: <a href={experience.live_link}>{experience.live_link}</a>
+        </div>
+        <div className="mt-5 text-secondary">
+          GitHub link:{" "}
+          <a href={experience.GitHub_link}>{experience.GitHub_link}</a>
+        </div>
       </ul>
     </VerticalTimelineElement>
   );
@@ -65,7 +72,9 @@ const Experience = () => {
         <p className={`${styles.sectionSubText} text-center`}>
           What I have done so far
         </p>
-        <h2 className={`${styles.sectionHeadText} text-center`}>My Works.</h2>
+        <h2 className={`${styles.sectionHeadText} text-center`}>
+          Some of My Works.
+        </h2>
       </motion.div>
 
       <div className="mt-20 flex flex-col">

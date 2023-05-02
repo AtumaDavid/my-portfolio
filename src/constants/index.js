@@ -104,57 +104,49 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "React.js and Firebase Hosting",
+    company_name: "Project Management Site",
     // icon: starbucks,
     iconBg: "#383E56",
+    live_link: "https://projectmanagementsite-205e8.firebaseapp.com/login",
+    GitHub_link: "https://github.com/AtumaDavid/project-management-site",
+
     // date: "March 2020 - April 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Web app built with React JS and firebase for assigning projects to signed in users and includes a  comment section for commenting on a particular project.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "React Native",
+    company_name: "News App",
     // icon: tesla,
     iconBg: "#915eff",
+    live_link: "",
+    GitHub_link: "https://github.com/AtumaDavid/news-app-react-native",
     // date: "Jan 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "React Native mobile app for Andriod and IOS to check the latest news",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Typescript",
+    company_name: "Advanced Shopping Cart",
     // icon: shopify,
     iconBg: "#383E56",
+    live_link: "https://advanced-shopping-cart-react-ts.vercel.app/",
+    GitHub_link:
+      "https://github.com/AtumaDavid/advanced-shopping-cart-react-ts",
     // date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+    points: ["A store shopping cart using TypeScript adn Bootstrap."],
   },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    // icon: meta,
-    iconBg: "#915eff",
-    // date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  // {
+  //   title: "Full stack Developer",
+  //   company_name: "Meta",
+  //   // icon: meta,
+  //   iconBg: "#915eff",
+  //   // date: "Jan 2023 - Present",
+  //   points: ["three"],
+  // },
 ];
 
 const testimonials = [
